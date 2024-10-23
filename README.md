@@ -1,7 +1,10 @@
 # Mockup practice page
 
-Just to practice flexbox, positions, and layouts overall.
-## To run this project simply clone the repo and with the live server extension on vscode simply go live.
+Just to practice flexbox, positions, and layouts overall
+
+To run this project simply clone the repo and with the live server extension on vscode simply go live.
+Or visit this link: [Webpage](https://mockpage-2poc5uqbq-alexandro02s-projects.vercel.app/).
+
 ## Tech Stack
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
