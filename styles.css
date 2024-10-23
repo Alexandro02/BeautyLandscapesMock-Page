@@ -1,0 +1,96 @@
+/* Setting lato font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Resetting styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  background: #fff;
+}
+
+.all-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: auto;
+  /* border: 1px solid black; */
+  margin: 3rem;
+  gap: 3rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.main {
+  width: 27rem;
+}
+
+.main h1 {
+  font-size: 3.5rem;
+  letter-spacing: .1rem;
+  line-height: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+.main p {
+  font-size: 1.625rem;
+  font-weight: 350;
+  line-height: 2rem;
+  margin-bottom: 1.5rem
+}
+
+.get-started {
+  background: #252525;
+  border: none;
+  border-radius: 1.2rem;
+  color: #fff;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+
+  position: relative;
+}
+
+.images img {
+  width: 25.5rem;
+  height: 30rem;
+}
+
+.images img:nth-child(1) {
+  transform: translateY(-10%);
+}
+
+.images img:nth-child(2) {
+  transform: translateY(10%);
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.card h2 {
+  color: #c8c8c8;
+  margin-bottom: .5rem;
+}
